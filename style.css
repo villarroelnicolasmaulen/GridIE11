@@ -1,0 +1,34 @@
+body {
+    margin: 40px;
+  }
+
+  .center{
+    margin-left: 5em;
+  }
+
+  
+  
+  .wrapper {
+    width: 500px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70px 70px 70px 70px;
+    -ms-grid-rows: 70px 70px 70px 70px;
+    
+    background-color: #fff;
+    color: #444;
+  }
+  
+  .box {
+    border: 1px solid lightgrey;
+    background-color: #444;
+    color: #fff;
+    padding-top: 15px ;
+    font-size: 150%;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    
+  }
