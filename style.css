@@ -10,10 +10,13 @@ body {
   
   .wrapper {
     width: 500px;
-    display: -ms-grid;
+    /* IE 11 */
+    display: -ms-grid; 
+    /* another  */
     display: grid;
-    -ms-grid-columns: 70px 70px 70px 70px;
-    -ms-grid-rows: 70px 70px 70px 70px;
+
+    -ms-grid-columns: 70px 70px 70px 150px;
+    /* -ms-grid-rows: 150px; */
     
     background-color: #fff;
     color: #444;
